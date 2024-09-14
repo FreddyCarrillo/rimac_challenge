@@ -1,0 +1,43 @@
+@import "../../assets/styles/variables";
+
+.input {
+  color: $borderColor;
+  padding-left: 18px;
+  border-radius: 1.01px;
+  border: solid 1px $borderColor;
+  width: 100%;
+  height: 50px;
+}
+
+.inputError {
+  color: gray;
+  padding-left: 18px;
+  border-radius: 1.01px;
+  width: 100%;
+  height: 50px;
+  border: solid 1px $borderColor;
+  border: solid 1px $secondaryColor !important;
+}
+
+.btnSubmit {
+  margin-top: 25;
+  border-radius: 20;
+  font-size: 12;
+  background-color: $secondaryColor !important;
+  color: black;
+  font-weight: bold;
+  height: 40;
+  width: 70%;
+}
+
+.progress {
+  width: 20;
+  height: 20;
+  color: black;
+}
+
+.message__error {
+  font-size: 12px;
+  margin-top: 9px;
+  color: red;
+}

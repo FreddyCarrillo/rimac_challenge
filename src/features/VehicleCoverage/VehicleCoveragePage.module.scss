@@ -1,0 +1,10 @@
+@import "../../assets/styles/variables";
+
+.container {
+  padding: 2rem;
+  background-color: $primaryColor;
+}
+
+.quote-form {
+  border: 1px solid $secondaryColor;
+}

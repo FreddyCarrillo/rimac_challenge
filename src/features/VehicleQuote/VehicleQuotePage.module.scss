@@ -1,0 +1,92 @@
+@import "../../assets/styles/variables";
+
+
+.quote-form {
+  border: 1px solid $secondaryColor;
+}
+
+.background__web {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  width: 33%;
+}
+
+.ctn__logo {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  margin-top: 122px !important;
+}
+
+.ctn__description {
+  margin-top: 39px;
+}
+
+.ctn__description .title1 {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.ctn__description .title2 {
+  font-size: 36px;
+}
+
+.ctn__description .title2 span{
+  color: $secondaryColor;
+}
+
+.ctn__description .title3 {
+  font-size: 36px;
+  color: $secondaryColor;
+  margin-bottom: 17px;
+}
+
+.ctn__description .title4 {
+  font-size: 14px;
+  margin-bottom: 11px;
+}
+        
+.ctn__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 26%;
+}
+
+.ctn__input {
+  margin: 10px 0px;
+}
+
+.ctn__actionBtn {
+  margin: 10px 0px
+}
+
+.form__title {
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.ctn__general__terms {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 19px;
+  color: #676F8F;
+}
+
+.ctn__terms {
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.description__mark {
+  text-decoration: underline;
+  font-weight: bold;
+}

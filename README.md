@@ -53,13 +53,6 @@ La aplicación sigue una arquitectura basada en características (feature-based 
 
 ## Scripts de Construcción
 
-- `dev`: Inicia el servidor de desarrollo utilizando Vite.
-- `build`: Compila el código TypeScript y construye la aplicación utilizando Vite.
-- `lint`: Ejecuta ESLint para verificar el código y asegurarse de que cumple con las reglas de estilo y buenas prácticas.
-- `preview`: Previsualiza la aplicación construida utilizando Vite.
-
-## Instalación
-
 Para levantar el proyecto en local ejecuta los siguientes comandos:
 
 ```bash
